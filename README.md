@@ -1,1 +1,1 @@
-# algorithms
+exercises in basic algorithms
