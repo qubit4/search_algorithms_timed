@@ -22,7 +22,7 @@ print("This script creates an array of numbers from user input and searches for 
 while True:
 
     try:
-        # creating array and target from user input
+        # creating an array and the target from user input
         arr = []
         count = int(input("Number of elements: "))
 
@@ -34,7 +34,7 @@ while True:
         target = int(
             input("Enter the element you want to search for in the present array: "))
 
-        # searching for target with binary search algorithm
+        # searching for the target with binary search algorithm
         result = binarySearch(arr, 0, len(arr)-1, target)
         print("Target element is present at index", result)
 
