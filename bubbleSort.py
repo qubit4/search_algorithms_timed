@@ -9,10 +9,8 @@ def bubbleSort(array):
         for j in range(0, len(array) - i - 1):
 
             if array[j] > array[j+1]:
-                # swapping right and left element if left is greater than right
-                temp = array[j]
-                array[j] = array[j+1]
-                array[j+1] = temp
+                # swapping left and right element if left is greater than right
+                (array[j], array[j+1]) = (array[j+1], array[j])
 
                 swapped = True
 
