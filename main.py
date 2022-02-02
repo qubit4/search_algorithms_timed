@@ -43,7 +43,7 @@ while True:
         target = int(
             input("Enter the element you want to search for in the present array: "))
 
-        # search with 4 search algorithms, timing the search and printing results
+        # searching with 3 search algorithms, timing the search and printing results
         print("\nRESULTS \n")
 
         search_algorithms = [linearSearch, jumpSearch, exponentialSearch]
